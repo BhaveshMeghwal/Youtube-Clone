@@ -1,0 +1,7 @@
+.dark-mode{
+  background-color: #000;
+  color: #fff;
+}
+.app__page{
+  display: flex;
+}

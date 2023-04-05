@@ -1,0 +1,27 @@
+.recommendedVid{
+    flex: 0.8;
+    padding: 15px;
+}
+.recommendedVid h1{
+    font-family: "Roboto","Arial",sans-serif;
+    margin: 20px 5px;
+    font-size: 2.5rem;
+}
+.recommendedVid h1:hover .red{
+    color: black;
+    transition: all 0.1s ease-in;
+}
+.recommendedVid h1:hover .black{
+    color: red;
+    transition: all 0.1s ease-in;
+}
+.red{
+    color: red;
+}
+.black{
+    color: black;
+}
+.recommendedVid__videos{
+    display: flex;
+    flex-wrap: wrap;
+}
